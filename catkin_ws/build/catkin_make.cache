@@ -1,0 +1,2 @@
+bbblue_drivers
+-DCATKIN_DEVEL_PREFIX=/home/beagle/UN/APM/APM20221-MicroRobot/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/beagle/UN/APM/APM20221-MicroRobot/catkin_ws/install -G Unix Makefiles
