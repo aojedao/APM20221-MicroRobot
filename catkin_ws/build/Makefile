@@ -298,6 +298,19 @@ imu_pub_node/fast:
 .PHONY : imu_pub_node/fast
 
 #=============================================================================
+# Target rules for targets named odomencodertest
+
+# Build rule for target.
+odomencodertest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 odomencodertest
+.PHONY : odomencodertest
+
+# fast build rule for target.
+odomencodertest/fast:
+	$(MAKE) -f bbblue_drivers/CMakeFiles/odomencodertest.dir/build.make bbblue_drivers/CMakeFiles/odomencodertest.dir/build
+.PHONY : odomencodertest/fast
+
+#=============================================================================
 # Target rules for targets named diff_motor_driver
 
 # Build rule for target.
@@ -996,6 +1009,7 @@ help:
 	@echo "... gtest_main"
 	@echo "... gtest"
 	@echo "... imu_pub_node"
+	@echo "... odomencodertest"
 	@echo "... diff_motor_driver"
 	@echo "... nav_msgs_generate_messages_lisp"
 	@echo "... nav_msgs_generate_messages_eus"

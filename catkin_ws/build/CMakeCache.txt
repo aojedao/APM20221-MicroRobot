@@ -384,6 +384,12 @@ message_generation_DIR:PATH=/opt/ros/melodic/share/message_generation/cmake
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
 
+//Value Computed by CMake
+microSDVodom_BINARY_DIR:STATIC=/home/beagle/UN/APM/APM20221-MicroRobot/catkin_ws/build/microSDVodom
+
+//Value Computed by CMake
+microSDVodom_SOURCE_DIR:STATIC=/home/beagle/UN/APM/APM20221-MicroRobot/catkin_ws/src/microSDVodom
+
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/melodic/share/nav_msgs/cmake
 

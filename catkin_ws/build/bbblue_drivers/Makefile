@@ -183,6 +183,21 @@ imu_pub_node/fast:
 .PHONY : imu_pub_node/fast
 
 # Convenience name for target.
+bbblue_drivers/CMakeFiles/odomencodertest.dir/rule:
+	cd /home/beagle/UN/APM/APM20221-MicroRobot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bbblue_drivers/CMakeFiles/odomencodertest.dir/rule
+.PHONY : bbblue_drivers/CMakeFiles/odomencodertest.dir/rule
+
+# Convenience name for target.
+odomencodertest: bbblue_drivers/CMakeFiles/odomencodertest.dir/rule
+
+.PHONY : odomencodertest
+
+# fast build rule for target.
+odomencodertest/fast:
+	cd /home/beagle/UN/APM/APM20221-MicroRobot/catkin_ws/build && $(MAKE) -f bbblue_drivers/CMakeFiles/odomencodertest.dir/build.make bbblue_drivers/CMakeFiles/odomencodertest.dir/build
+.PHONY : odomencodertest/fast
+
+# Convenience name for target.
 bbblue_drivers/CMakeFiles/diff_motor_driver.dir/rule:
 	cd /home/beagle/UN/APM/APM20221-MicroRobot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bbblue_drivers/CMakeFiles/diff_motor_driver.dir/rule
 .PHONY : bbblue_drivers/CMakeFiles/diff_motor_driver.dir/rule
@@ -1043,6 +1058,33 @@ src/bb-blue-imu-mpu9250-node.cpp.s:
 	cd /home/beagle/UN/APM/APM20221-MicroRobot/catkin_ws/build && $(MAKE) -f bbblue_drivers/CMakeFiles/imu_pub_node.dir/build.make bbblue_drivers/CMakeFiles/imu_pub_node.dir/src/bb-blue-imu-mpu9250-node.cpp.s
 .PHONY : src/bb-blue-imu-mpu9250-node.cpp.s
 
+src/bbodomencodertest.o: src/bbodomencodertest.cpp.o
+
+.PHONY : src/bbodomencodertest.o
+
+# target to build an object file
+src/bbodomencodertest.cpp.o:
+	cd /home/beagle/UN/APM/APM20221-MicroRobot/catkin_ws/build && $(MAKE) -f bbblue_drivers/CMakeFiles/odomencodertest.dir/build.make bbblue_drivers/CMakeFiles/odomencodertest.dir/src/bbodomencodertest.cpp.o
+.PHONY : src/bbodomencodertest.cpp.o
+
+src/bbodomencodertest.i: src/bbodomencodertest.cpp.i
+
+.PHONY : src/bbodomencodertest.i
+
+# target to preprocess a source file
+src/bbodomencodertest.cpp.i:
+	cd /home/beagle/UN/APM/APM20221-MicroRobot/catkin_ws/build && $(MAKE) -f bbblue_drivers/CMakeFiles/odomencodertest.dir/build.make bbblue_drivers/CMakeFiles/odomencodertest.dir/src/bbodomencodertest.cpp.i
+.PHONY : src/bbodomencodertest.cpp.i
+
+src/bbodomencodertest.s: src/bbodomencodertest.cpp.s
+
+.PHONY : src/bbodomencodertest.s
+
+# target to generate assembly for a file
+src/bbodomencodertest.cpp.s:
+	cd /home/beagle/UN/APM/APM20221-MicroRobot/catkin_ws/build && $(MAKE) -f bbblue_drivers/CMakeFiles/odomencodertest.dir/build.make bbblue_drivers/CMakeFiles/odomencodertest.dir/src/bbodomencodertest.cpp.s
+.PHONY : src/bbodomencodertest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1054,6 +1096,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... test"
 	@echo "... imu_pub_node"
+	@echo "... odomencodertest"
 	@echo "... diff_motor_driver"
 	@echo "... nav_msgs_generate_messages_lisp"
 	@echo "... install/local"
@@ -1118,6 +1161,9 @@ help:
 	@echo "... src/bb-blue-imu-mpu9250-node.o"
 	@echo "... src/bb-blue-imu-mpu9250-node.i"
 	@echo "... src/bb-blue-imu-mpu9250-node.s"
+	@echo "... src/bbodomencodertest.o"
+	@echo "... src/bbodomencodertest.i"
+	@echo "... src/bbodomencodertest.s"
 .PHONY : help
 
 

@@ -409,6 +409,7 @@ clean: gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean
 
 # Convenience name for "all" pass in the directory.
 bbblue_drivers/all: bbblue_drivers/CMakeFiles/imu_pub_node.dir/all
+bbblue_drivers/all: bbblue_drivers/CMakeFiles/odomencodertest.dir/all
 bbblue_drivers/all: bbblue_drivers/CMakeFiles/diff_motor_driver.dir/all
 bbblue_drivers/all: bbblue_drivers/CMakeFiles/battery_state.dir/all
 
@@ -416,6 +417,7 @@ bbblue_drivers/all: bbblue_drivers/CMakeFiles/battery_state.dir/all
 
 # Convenience name for "clean" pass in the directory.
 bbblue_drivers/clean: bbblue_drivers/CMakeFiles/imu_pub_node.dir/clean
+bbblue_drivers/clean: bbblue_drivers/CMakeFiles/odomencodertest.dir/clean
 bbblue_drivers/clean: bbblue_drivers/CMakeFiles/diff_motor_driver.dir/clean
 bbblue_drivers/clean: bbblue_drivers/CMakeFiles/nav_msgs_generate_messages_lisp.dir/clean
 bbblue_drivers/clean: bbblue_drivers/CMakeFiles/nav_msgs_generate_messages_eus.dir/clean
@@ -510,6 +512,43 @@ bbblue_drivers/CMakeFiles/imu_pub_node.dir/clean:
 
 # clean rule for target.
 clean: bbblue_drivers/CMakeFiles/imu_pub_node.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bbblue_drivers/CMakeFiles/odomencodertest.dir
+
+# All Build rule for target.
+bbblue_drivers/CMakeFiles/odomencodertest.dir/all:
+	$(MAKE) -f bbblue_drivers/CMakeFiles/odomencodertest.dir/build.make bbblue_drivers/CMakeFiles/odomencodertest.dir/depend
+	$(MAKE) -f bbblue_drivers/CMakeFiles/odomencodertest.dir/build.make bbblue_drivers/CMakeFiles/odomencodertest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/beagle/UN/APM/APM20221-MicroRobot/catkin_ws/build/CMakeFiles --progress-num=18,19 "Built target odomencodertest"
+.PHONY : bbblue_drivers/CMakeFiles/odomencodertest.dir/all
+
+# Include target in all.
+all: bbblue_drivers/CMakeFiles/odomencodertest.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+bbblue_drivers/CMakeFiles/odomencodertest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/beagle/UN/APM/APM20221-MicroRobot/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 bbblue_drivers/CMakeFiles/odomencodertest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/beagle/UN/APM/APM20221-MicroRobot/catkin_ws/build/CMakeFiles 0
+.PHONY : bbblue_drivers/CMakeFiles/odomencodertest.dir/rule
+
+# Convenience name for target.
+odomencodertest: bbblue_drivers/CMakeFiles/odomencodertest.dir/rule
+
+.PHONY : odomencodertest
+
+# clean rule for target.
+bbblue_drivers/CMakeFiles/odomencodertest.dir/clean:
+	$(MAKE) -f bbblue_drivers/CMakeFiles/odomencodertest.dir/build.make bbblue_drivers/CMakeFiles/odomencodertest.dir/clean
+.PHONY : bbblue_drivers/CMakeFiles/odomencodertest.dir/clean
+
+# clean rule for target.
+clean: bbblue_drivers/CMakeFiles/odomencodertest.dir/clean
 
 .PHONY : clean
 
