@@ -34,9 +34,10 @@
   <h3 align="center">Proyecto Aplicado de Ingeniería</h3>
   
 
-## Integrantes
+## Members
 * Alejandro Ojeda Olarte
 * Nicolas Pulido Gerena
 
-## Desarrollo
-Este proyecto está a
+## Description
+
+This project is a differential self-driving vehicle (SDV) with 2D perception for a printed circuit board (PCB) microfactory using flexible operation processes. Using a Raspberry Pi 3B and a BeagleBone Blue, a 5.02 kg payload-carrying robot is designed and manufactured. Perception is achieved using a RPLidar A1 and Hector SLAM mapping.
