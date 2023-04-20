@@ -1,8 +1,0 @@
-prefix=/home/beagle/UN/APM/APM20221-MicroRobot/catkin_ws/install
-
-Name: microSDVodom
-Description: Description of microSDVodom
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

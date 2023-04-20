@@ -1,0 +1,8 @@
+prefix=/home/pi/APM20221-MicroRobot/catkin_ws/devel
+
+Name: tb3_control
+Description: Description of tb3_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

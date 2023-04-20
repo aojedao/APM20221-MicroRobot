@@ -7,4 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/beagle/UN/APM/APM20221-MicroRobot/catkin_ws/build"
+export CMAKE_PREFIX_PATH="/home/pi/APM20221-MicroRobot/catkin_ws/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/pi/APM20221-MicroRobot/catkin_ws/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/pi/APM20221-MicroRobot/catkin_ws/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/pi/APM20221-MicroRobot/catkin_ws/src:$ROS_PACKAGE_PATH"
