@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="USER" on="05/04/23||16:41:06" using="Simscape Multibody Link Version 7.0" from="Autodesk Inventor 2021 (Build 250183000, 183)"/>
+<ModelUnits mass="lbmass" length="meter"/>
+<DataUnits mass="kilogram" length="centimeter"/>
+<RootAssembly name="MicroRobotURDF.iam" uid="MicroRobotURDF.iam_{E0041B35-41C8-4346-299D-ECA92FAA580E}" version="{FFAD7A88-91F4-4AC2-9A02-CC94753E0CDC}">
+<AssemblyFile name="MicroRobotURDF.iam" type="Inventor Assembly"/>
+<InstanceTree>
+<Instance name="Component109:1" grounded="true" uid="Component109:1" entityUid="Component109.iam_{420326C0-4E31-3782-9E46-A9B80949F579}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="CastorWheel:1" grounded="true" uid="CastorWheel:1" entityUid="CastorWheel.ipt_{5FE9C1B0-4DD7-A20C-C131-F9B20283085A}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Part8" uid="Part8" entityUid="Part8.ipt_{ABB9DF1E-4D3A-4A61-78AB-4B9287AA3E80}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RightWheel:1" uid="RightWheel:1" entityUid="RightWheel.ipt_{B1C41EB4-419E-2F91-2CC1-9F9E27E27B1D}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="LeftWheel:1" uid="LeftWheel:1" entityUid="LeftWheel.ipt_{5D42C85E-47C2-EA25-C8DA-60B0CD03C169}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+</Constraints>
+<Joints>
+</Joints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Component109.iam" uid="Component109.iam_{420326C0-4E31-3782-9E46-A9B80949F579}" version="{7455DA8B-AF70-1A11-73D2-A6479A6A5C11}">
+<AssemblyFile name="Component109.iam" type="Inventor Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="CastorWheel.ipt" uid="CastorWheel.ipt_{5FE9C1B0-4DD7-A20C-C131-F9B20283085A}" version="{479A8127-1E15-B4AB-F31C-46E211A2574E}">
+<PartFile name="CastorWheel.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0003671337829455244</Mass>
+<CenterOfMass>-6.9802625010183625 -7.3755286661829951 16.547519233051219</CenterOfMass>
+<Inertia>2.897620467236095e-05 2.897620467237516e-05 2.8976204672382265e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="CastorWheel_ipt_12c95f38.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="LeftWheel.ipt" uid="LeftWheel.ipt_{5D42C85E-47C2-EA25-C8DA-60B0CD03C169}" version="{AEAF3FD1-6D74-9690-EAE1-8618EF242471}">
+<PartFile name="LeftWheel.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.046558992230017873</Mass>
+<CenterOfMass>-12.894784195031827 -17.193667138945347 19.147520244448266</CenterOfMass>
+<Inertia>0.17592577463797715 0.3078684163066282 0.17592581092582987 1.1621308658504858e-08 3.3150141462101601e-08 1.5515979612246155e-12</Inertia>
+</MassProperties>
+<GeometryFile name="LeftWheel_ipt_ba86ca98.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part8.ipt" uid="Part8.ipt_{ABB9DF1E-4D3A-4A61-78AB-4B9287AA3E80}" version="{E27BB82A-AF47-9FD8-4A8E-10472A3BFBF1}">
+<PartFile name="Part8.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.39340693471752797</Mass>
+<CenterOfMass>-12.424679940206317 -7.3356418693349887 22.098821263045007</CenterOfMass>
+<Inertia>9.8593421073873753 8.6719253962211944 7.393298600084905 -0.069660531402536432 0.47202655942714772 0.0014765271863216186</Inertia>
+</MassProperties>
+<GeometryFile name="Part8_ipt_a4aa765c.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="RightWheel.ipt" uid="RightWheel.ipt_{B1C41EB4-419E-2F91-2CC1-9F9E27E27B1D}" version="{64874A70-7502-35F7-71AD-A7116629A336}">
+<PartFile name="RightWheel.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.046558992230020267</Mass>
+<CenterOfMass>-12.368261412672926 2.5127503848871995 19.147518839730441</CenterOfMass>
+<Inertia>0.17592575872087399 0.30786840569525886 0.17592581623156367 -1.837138734117616e-08 -3.9463868233724501e-08 2.9394868761301043e-12</Inertia>
+</MassProperties>
+<GeometryFile name="RightWheel_ipt_5067d7ef.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
